@@ -1,0 +1,39 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date: 2025-11-05
+  Features:
+    - Add advanced lunar panel (Krastorio 2 advanced solar panel counterpart) tier if "Krastorio 2" mod is installed
+  Bugfixes:
+    - Fix graphical problem to the Space Exploration's "flat solar panel"
+    - Lunar panel technological progression should follow solar panel technological progression in "Space Exploration + Krastorio 2" now
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 2025-11-04
+  Bugfixes:
+    - Check if "flat lunar panel", "flat lunar panel 2", "flat lunar panel 3" exist before creating flat version lunar panel
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2025-11-04
+  Bugfixes:
+    - Make "lunar panel" next upgrade to "advanced lunar panel", "advanced lunar panel" next upgrade to "elite lunar panel" and "elite lunar panel" next upgrade to "ultimate lunar panel" if "Advanced Solar HR" mod is installed
+    - Make "flat lunar panel" next upgrade to "flat lunar panel 2" and "flat lunar panel 2" next upgrade to "flat lunar panel 3" if "Space Exploration" mod is installed
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2025-10-27
+  Features:
+    - Add flat lunar panel tier if "Space Exploration" mod is installed
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2025-10-10
+  Features:
+    - Add more lunar panel tier if "Advanced Solar HR" mod is installed
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2025-10-10
+  Features:
+    - Add portable lunar panel.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2024-10-09
+  Changes:
+    - Initial Release.
