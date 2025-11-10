@@ -16,3 +16,7 @@ end
 if mods["Krastorio2"] then
   require("prototypes.krastorio2.advancedlunarpanel")
 end
+
+if mods["Bio_Industries_2"] then
+ require("prototypes.bioindustries2.bibiolunarfarm")
+end
