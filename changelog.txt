@@ -1,8 +1,38 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2026-09-11
+  Features:
+    - Update to 2.1
+---------------------------------------------------------------------------------------------------
+Version: 1.1.9
+Date: 2026-03-24
+  Bugfixes:
+    - Fix crash when "248k Redux" mods not activated.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.8
+Date: 2026-03-24
+  Bugfixes:
+    - Fix crash when playing with version "248k Redux" mods that is higher than "0.1.32"
+---------------------------------------------------------------------------------------------------
+Version: 1.1.7
+Date: 2025-11-29
+  Features:
+    - Add "Lunar panel 2.0" when "248k Redux" is installed
+  Bugfixes:
+    - Fix the items presence check logic for some items
+---------------------------------------------------------------------------------------------------
+Version: 1.1.6
+Date: 2025-11-21
+  Bugfixes:
+    - Fix "Lunar panel" energy production when Krastorio 2 is installed
+    - Fix the items presence check logic for some items
+---------------------------------------------------------------------------------------------------
 Version: 1.1.5
-Date: 2025-11-10
+Date: 2025-11-17
   Features:
     - Add bio industries 2 solar farm counterpart, Lunar farm
+  Bugfixes:
+    - Fix "Elite lunar panel" and "Ultimate lunar panel" recipe
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.4
 Date: 2025-11-10

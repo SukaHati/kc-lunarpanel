@@ -22,7 +22,7 @@ lunarpanelentity.minable.result = newname
 
 lunarpanelrecipe.name = newname
 for ai in pairs(lunarpanelrecipe.ingredients) do
-  if lunarpanelrecipe.ingredients[ai].name == "solar-panel" then lunarpanelrecipe.ingredients[ai].name = "kc-elite-lunar-panel" end
+  if lunarpanelrecipe.ingredients[ai].name == "elite-solar" then lunarpanelrecipe.ingredients[ai].name = "kc-elite-lunar-panel" end
 end
 lunarpanelrecipe.results = {
   {

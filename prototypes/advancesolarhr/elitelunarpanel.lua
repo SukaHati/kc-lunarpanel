@@ -23,7 +23,7 @@ lunarpanelentity.next_upgrade = "kc-ultimate-lunar-panel"
 
 lunarpanelrecipe.name = newname
 for ai in pairs(lunarpanelrecipe.ingredients) do
-  if lunarpanelrecipe.ingredients[ai].name == "solar-panel" then lunarpanelrecipe.ingredients[ai].name = "kc-advanced-lunar-panel" end
+  if lunarpanelrecipe.ingredients[ai].name == "advanced-solar" then lunarpanelrecipe.ingredients[ai].name = "kc-advanced-lunar-panel" end
 end
 lunarpanelrecipe.results = {
   {

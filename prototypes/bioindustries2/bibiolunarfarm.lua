@@ -1,5 +1,5 @@
 local copieditem = "bi-bio-solar-farm"
-if not data.raw["solar-panel"][copieditem] == nil then goto skip end
+if data.raw["solar-panel"][copieditem] == nil then goto skip end
 local lunarpanelitem = table.deepcopy(data.raw.item[copieditem])
 local lunarpanelentity = table.deepcopy(data.raw["solar-panel"][copieditem])
 local lunarpanelrecipe = table.deepcopy(data.raw.recipe[copieditem])
@@ -7,6 +7,7 @@ local lunarpanelrecipe = table.deepcopy(data.raw.recipe[copieditem])
 local newname = "kc-bi-bio-lunar-farm"
 local tint_value = {r = 255/255, g = 150/255, b = 140/255}
 
+log(serpent.block(lunarpanelitem))
 lunarpanelitem.name = newname
 lunarpanelitem.icons = {{icon = lunarpanelitem.icon, tint = tint_value}}
 lunarpanelitem.icon = nil

@@ -1,6 +1,10 @@
 require("prototypes.lunarpanel")
 require("prototypes.lunarpanelequipment")
 
+if mods["248k-Redux"] then
+  require("prototypes.248k.lunarpanel2")
+end
+
 if mods["Advanced-Electric-Revamped-v16"] then
   require("prototypes.advancesolarhr.advancedlunarpanel")
   require("prototypes.advancesolarhr.elitelunarpanel")
@@ -13,7 +17,7 @@ if mods["space-exploration"] then
   require("prototypes.spaceexploration.flatlunarpanel3")
 end
 
-if mods["Krastorio2"] then
+if mods["Krastorio2"] or mods["Krastorio2-spaced-out"] then
   require("prototypes.krastorio2.advancedlunarpanel")
 end
 

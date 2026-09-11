@@ -1,10 +1,10 @@
 {
   "name": "kc-lunarpanel",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "title": "Lunar Panel",
   "author": "KilangCuka",	
-  "factorio_version": "2.0",
+  "factorio_version": "2.1",
   "homepage": "",
   "description": "Add lunar panel. An inverse solar panel that generate electricity at night",
-  "dependencies": ["base >= 2.0", "? space-exploration >= 0.7.34", "? Krastorio2 >= 2.0.12", "? Advanced-Electric-Revamped-v16 >= 0.7.6", "? Bio_Industries_2 >= 2.0.30"]
+  "dependencies": ["base >= 2.1.17", "? space-exploration >= 0.7.34", "? Krastorio2 >= 2.0.12", "? Krastorio2-spaced-out >= 1.5.12", "? Advanced-Electric-Revamped-v16 >= 0.7.6", "? Bio_Industries_2 >= 2.0.30", "? 248k-Redux >= 0.1.30", "? all-the-overhaul-modpack >= 2.0.17"]
 }
